@@ -1,0 +1,15 @@
+{
+  "name": "digitfy",
+  "version": "1.0.0",
+  "description": "A powerful module to deal with numbers inside string.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha --require @babel/polyfill --require @babel/register .test/*.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/urbanishimwe/digitfy.git"
+  },
+  "author": "Urban ISHIMWE",
+  "license": "ISC"
+}
