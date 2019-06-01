@@ -1,5 +1,5 @@
-import Middlewares from '../src/middlewares';
-import Helpers from '../src/helpers';
+import Middlewares from './middlewares';
+import Helpers from './helpers';
 
 export default class Controllers {
     static getNumber(string) {
