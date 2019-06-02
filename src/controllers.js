@@ -19,11 +19,11 @@ export default class Controllers {
         return Middlewares.getExec(string, Helpers.getNumber);
     }
 
-    static getNumberNegativeExec(string) {
+    static getNegativeNumberExec(string) {
         return Middlewares.getExec(string, Helpers.getNumberNegative);
     }
 
-    static getNumberPositiveExec(string) {
+    static getPositiveNumberExec(string) {
         return Middlewares.getExec(string, Helpers.getNumberPositive);
     }
 
@@ -43,11 +43,11 @@ export default class Controllers {
         return Middlewares.getExec(string, Helpers.getInt);
     }
 
-    static getIntNegativeExec(string) {
+    static getNegativeIntExec(string) {
         return Middlewares.getExec(string, Helpers.getIntNegative);
     }
 
-    static getIntPositiveExec(string) {
+    static getPositiveIntExec(string) {
         return Middlewares.getExec(string, Helpers.getIntPositive);
     }
 
@@ -97,5 +97,5 @@ export default class Controllers {
     static getPositiveExponentialExec(string) {
         return Middlewares.getExec(string, Helpers.getExponentialPositive);
     }
-    
+
 }

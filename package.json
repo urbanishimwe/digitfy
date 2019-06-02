@@ -2,12 +2,11 @@
   "name": "digitfy",
   "version": "1.0.0",
   "description": "A powerful module to deal with numbers inside string.",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "nyc --reporter=html --reporter=text mocha --require @babel/polyfill --require @babel/register ./src/tests.js --exit",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "start": "npx babel-node ./index.js",
-    "build": "babel ./ --out-dir dist",
+    "build": "babel ./src --out-dir dist",
     "serve": "node dist/index.js"
   },
   "repository": {
