@@ -4,7 +4,11 @@
   "description": "A powerful module to deal with numbers inside string.",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=html --reporter=text mocha --require @babel/polyfill --require @babel/register .test/*.js --exit"
+    "test": "nyc --reporter=html --reporter=text mocha --require @babel/polyfill --require @babel/register ./src/tests.js --exit",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "start": "npx babel-node ./index.js",
+    "build": "babel ./ --out-dir dist",
+    "serve": "node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,21 @@
   "bugs": {
     "url": "https://github.com/urbanishimwe/digitfy/issues"
   },
-  "homepage": "https://github.com/urbanishimwe/digitfy#readme"
+  "homepage": "https://github.com/urbanishimwe/digitfy#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.3",
+    "mocha": "^6.1.4",
+    "nyc": "^13.3.0"
+  }
 }
