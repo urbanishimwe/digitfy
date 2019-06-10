@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/urbanishimwe/digitfy.svg?branch=master)](https://travis-ci.org/urbanishimwe/digitfy)
 [![Coverage Status](https://coveralls.io/repos/github/urbanishimwe/digitfy/badge.svg?branch=master)](https://coveralls.io/github/urbanishimwe/digitfy?branch=master)
 
-Digitfy is a powerful javascript module to deal with numbers inside a string, it uses regular expressions technics in searching any groups of integers in the specified string,
+Digitfy is a powerful javascript module to deal with numbers inside a string, it uses regex technics in searching any groups of integers in the specified string,
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
