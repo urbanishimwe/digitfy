@@ -7,7 +7,8 @@
     "test": "nyc --reporter=html --reporter=text mocha --require @babel/polyfill --require @babel/register ./src/tests.js --exit",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "build": "babel ./src --out-dir dist",
-    "serve": "node dist/index.js"
+    "serve": "node dist/index.js",
+    "start": "babel-node ./index.js"
   },
   "repository": {
     "type": "git",

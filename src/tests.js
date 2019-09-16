@@ -1,5 +1,5 @@
 import chai from 'chai';
-import digitfy from './index';
+import digitfy from '../index';
 
 chai.should();
 
