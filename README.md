@@ -1,6 +1,7 @@
 # Digitfy
 [![Build Status](https://travis-ci.org/urbanishimwe/digitfy.svg?branch=master)](https://travis-ci.org/urbanishimwe/digitfy)
 [![Coverage Status](https://coveralls.io/repos/github/urbanishimwe/digitfy/badge.svg?branch=master)](https://coveralls.io/github/urbanishimwe/digitfy?branch=master)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Digitfy is a powerful javascript module to deal with numbers inside a string, it uses regex technics in searching any groups of integers in the specified string,
 
