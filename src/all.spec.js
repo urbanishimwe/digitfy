@@ -1,7 +1,4 @@
-import chai from 'chai';
-import digitfy from '../index';
-
-chai.should();
+const digitfy  = require('../index');
 
 const string = '--1+2.3e45fklq\t90.\n99-23.23e12mn  1b1 qdqek2 . 4 qkq -+12nqd1l12b.12.45-12.718bne09';
 

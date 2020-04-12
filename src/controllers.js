@@ -1,7 +1,8 @@
-import Middlewares from './middlewares';
-import Helpers from './helpers';
+'use stricts';
+const Middlewares = require('./middlewares');
+const Helpers = require('./helpers');
 
-export default class Controllers {
+module.exports = class Controllers {
   static getNumber(string) {
     return Middlewares.getMatch(string, Helpers.getNumber);
   }

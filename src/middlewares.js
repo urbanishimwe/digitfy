@@ -1,4 +1,5 @@
-export default class Middlewares {
+'use stricts';
+module.exports = class Middlewares {
   static match(string, regex) {
     return string.match(regex);
   }

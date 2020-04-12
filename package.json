@@ -1,14 +1,10 @@
 {
   "name": "digitfy",
-  "version": "1.0.0",
-  "description": "A powerful module to deal with numbers inside string.",
-  "main": "./src/index.js",
+  "version": "1.2.0",
+  "description": "Extract numbers from string.",
+  "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=html --reporter=text mocha --require @babel/polyfill --require @babel/register ./src/tests.js --exit",
-    "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "build": "babel ./src --out-dir dist",
-    "serve": "node dist/index.js",
-    "start": "babel-node ./index.js"
+    "test": "mocha ./src/all.spec.js --exit"
   },
   "repository": {
     "type": "git",
@@ -21,19 +17,9 @@
   },
   "homepage": "https://github.com/urbanishimwe/digitfy#readme",
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.17.2"
+    "eslint": "^5.16.0"
   },
   "dependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.4",
-    "@babel/node": "^7.2.2",
-    "@babel/polyfill": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
-    "chai": "^4.2.0",
-    "coveralls": "^3.0.3",
-    "mocha": "^6.1.4",
-    "nyc": "^14.1.1"
+    "mocha": "^6.1.4"
   }
 }
