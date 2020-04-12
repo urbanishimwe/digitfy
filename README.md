@@ -1,31 +1,11 @@
 # Digitfy
-[![Build Status](https://travis-ci.org/urbanishimwe/digitfy.svg?branch=master)](https://travis-ci.org/urbanishimwe/digitfy)
-[![Coverage Status](https://coveralls.io/repos/github/urbanishimwe/digitfy/badge.svg?branch=master)](https://coveralls.io/github/urbanishimwe/digitfy?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/urbanishimwe/digitfy.svg?branch=master)](https://travis-ci.org/urbanishimwe/digitfy)
 
-Digitfy is a powerful javascript module to deal with numbers inside a string, it uses regex technics in searching any groups of integers in the specified string,
-
-## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-## Prerequisites
-To install the software on your local machine, you need first to clone the repository or download the zip file and once this is set up you are going to need this packages. [NodeJS]
+Digitfy lets you extract all possible numbers from the string.
 
 ```
- [Node Package Installer - NPM] this usually comes with Node or YARN in case NPM doesn't work.
-```
-
-## Installing
-The installation of this application is fairly straightforward, After cloning this repository to your local machine,CD into the package folder using your terminal and run the following
-
-```
-> npm install
-```
-
-It will install the node_modules which will help you run the project on your local machine.
-
-```
-> These are the functions which can be found in this module
+npm install digitfy --save
 ```
 
 ## FUNCTIONS
@@ -57,33 +37,9 @@ It will install the node_modules which will help you run the project on your loc
 | getPositiveExponential | string: 'string to search numbers from' | it returns an array of positive scientific numbers|
 | getNegativeExponentialExec | string: 'string to search numbers from' | it returns an array of objects of positive scientific numbers|
 
-### Testing Framework
-```
- *Mocha* and *Chai*
- ```
-### Style Guide
-```
-*Airbnb*
-```
-### Continuous Integration
-```
-Travis CI
-```
-### Test Coverage
-```
-nyc
-```
-### Git badge
-```
-coveralls
-```
 
-**Version 1.0.0**
+## Contribution
 
-## Contributor
-- Urban Ishimwe <urbainishimwe@gmail.com>
-
----
-
-## License & copyright
-Copyright (c) Urban ISHIMWE, Software developer
+```
+fork thisrepositroy and raise a PR, or create an issue
+```

@@ -1,3 +1,1 @@
-import digitfy from './src/controllers';
-
-export default digitfy;
+module.exports = require('./src/controllers');
