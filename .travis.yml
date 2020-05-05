@@ -4,7 +4,11 @@ node_js:
 branches:
   only:
     - master
+cache:
+  yarn: true
+  directories:
+    - node_modules
 install:
-  - npm install
+  - yarn
 script:
-  - npm test
+  - yarn test

@@ -1,25 +1,32 @@
 {
   "name": "digitfy",
-  "version": "1.2.0",
-  "description": "Extract numbers from string.",
+  "version": "1.3.0",
+  "description": "Extract numbers from the file or string.",
   "main": "index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "digitfy": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "scripts": {
-    "test": "mocha ./src/all.spec.js --exit"
+    "test": "mocha ./tests/index.spec.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/urbanishimwe/digitfy.git"
   },
-  "author": "Urban ISHIMWE ishimweurban@gmail.com",
+  "author": "Urban ISHIMWE urbainishimwe@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/urbanishimwe/digitfy/issues"
   },
   "homepage": "https://github.com/urbanishimwe/digitfy#readme",
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "mocha": "^7.1.2"
   },
-  "dependencies": {
-    "mocha": "^6.1.4"
-  }
+  "dependencies": {}
 }
